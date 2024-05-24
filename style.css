@@ -37,8 +37,8 @@ body {
 
     }
 
-    &.spade::before, &.spade::after {content: '\2660'; color: black;}
-    &.club::before, &.club::after {content: '\2663'; color: black;}
-    &.heart::before, &.heart::after {content: '\2665'; color:red;}
-    &.diamond::before, &.diamond::after {content: '\2666'; color:red;}
+    &.spade::before, &.spade::after {content: '♠'; color: black;}
+    &.club::before, &.club::after {content: '♣'; color: black;}
+    &.heart::before, &.heart::after {content: '♥'; color:red;}
+    &.diamond::before, &.diamond::after {content: '♦'; color:red;}
 }
